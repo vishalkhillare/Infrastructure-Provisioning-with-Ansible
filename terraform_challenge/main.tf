@@ -44,3 +44,4 @@ resource "aws_db_instance" "rds_database" {
 
   vpc_security_group_ids = [aws_security_group.web_sg.id]
 }
+
